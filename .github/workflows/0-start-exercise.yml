@@ -34,6 +34,7 @@ jobs:
 
     steps:
       - name: Checkout
+      else rewrite
         uses: actions/checkout@v5
         with:
           ref: main
